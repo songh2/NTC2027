@@ -1,0 +1,353 @@
+{
+  "slug": "ntc2027",
+  "lang_default": "ko",
+  "title": {
+    "ko": "정기 정수론 학회 2027",
+    "en": "Regular Number Theory Conference 2027"
+  },
+  "short_title": {
+    "ko": "정수론 학회 2027",
+    "en": "NTC 2027"
+  },
+  "subtitle": {
+    "ko": "",
+    "en": ""
+  },
+  "kicker": {
+    "ko": "서울대학교 · 2027년 2월 11일–12일",
+    "en": "Seoul National University · February 11–12, 2027"
+  },
+  "dates": {
+    "start": "2027-02-11",
+    "end": "2027-02-12",
+    "display": {
+      "ko": "2027년 2월 11일(목) 오후 2시 – 2월 12일(금) 오후 12시 30분",
+      "en": "February 11 (Thu), 2:00 PM – February 12 (Fri), 12:30 PM, 2027"
+    }
+  },
+  "venue": {
+    "name": {
+      "ko": "서울대학교",
+      "en": "Seoul National University"
+    },
+    "room": {
+      "ko": "129동(상산수리과학관) 101호",
+      "en": "Room 101, Building 129"
+    },
+    "address": {
+      "ko": "서울특별시 관악구 관악로 1 서울대학교 129동 (우 08826)",
+      "en": "Building 129, Seoul National University, 1 Gwanak-ro, Gwanak-gu, Seoul 08826, Korea"
+    },
+    "map_url": "https://www.google.com/maps/search/?api=1&query=%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90+129%EB%8F%99+%EC%83%81%EC%82%B0%EC%88%98%EB%A6%AC%EA%B3%BC%ED%95%99%EA%B4%80",
+    "lat": null,
+    "lng": null,
+    "directions": {
+      "ko": "",
+      "en": ""
+    }
+  },
+  "host": {
+    "ko": "",
+    "en": ""
+  },
+  "hero": {
+    "image": "",
+    "credit": {
+      "ko": "",
+      "en": ""
+    }
+  },
+  "about": {
+    "ko": "",
+    "en": ""
+  },
+  "notices": [
+    {
+      "date": "2026-10-26",
+      "text": {
+        "ko": "2월 10일(수) 사전행사는 예정 사항이며, 세부 내용은 프로그램 위원회에서 확정되는 대로 안내드립니다.",
+        "en": "The pre-event on February 10 (Wed) is tentative; details will be announced once confirmed by the Program Committee."
+      }
+    }
+  ],
+  "committees": [
+    {
+      "name": {
+        "ko": "현지 조직위원",
+        "en": "Local Organizing Committee"
+      },
+      "members": [
+        {
+          "name": {
+            "ko": "김도형",
+            "en": "Dohyeong Kim"
+          },
+          "affiliation": {
+            "ko": "서울대학교",
+            "en": "Seoul National University"
+          },
+          "url": "https://www.math.snu.ac.kr/~dohyeongkim/",
+          "email_enc": "v1:HB9NUVEcQgAHI19ZWVAAGwZLWF1T"
+        },
+        {
+          "name": {
+            "ko": "오병권",
+            "en": "Byeong-Kweon Oh"
+          },
+          "affiliation": {
+            "ko": "서울대학교",
+            "en": "Seoul National University"
+          },
+          "url": "https://www.math.snu.ac.kr/~bkoh/",
+          "email_enc": "v1:HB9NUVEcQgAHI1pfWVU="
+        },
+        {
+          "name": {
+            "ko": "유화종",
+            "en": "Hwajong Yoo"
+          },
+          "affiliation": {
+            "ko": "서울대학교",
+            "en": "Seoul National University"
+          },
+          "url": "https://cls.snu.ac.kr/?p=3609",
+          "email_enc": "v1:HB9NUVEcQgAHI1VeXV0PAws="
+        },
+        {
+          "name": {
+            "ko": "황준호",
+            "en": "Junho Peter Whang"
+          },
+          "affiliation": {
+            "ko": "서울대학교",
+            "en": "Seoul National University"
+          },
+          "url": "https://www.math.snu.ac.kr/~jwhang/",
+          "email_enc": "v1:HB9NUVEcQgAHI1VeU18ZHg=="
+        }
+      ]
+    },
+    {
+      "name": {
+        "ko": "프로그램 위원회",
+        "en": "Program Committee"
+      },
+      "members": [
+        {
+          "name": {
+            "ko": "김경민",
+            "en": "Kyoungmin Kim"
+          },
+          "affiliation": {
+            "ko": "한남대학교",
+            "en": "Hannam University"
+          },
+          "url": "",
+          "email_enc": "v1:HB9NR15ad15HGlxZWQ=="
+        },
+        {
+          "name": {
+            "ko": "이윤복",
+            "en": "Yoonbok Lee"
+          },
+          "affiliation": {
+            "ko": "인천대학교",
+            "en": "Incheon National University"
+          },
+          "url": "https://sites.google.com/site/leeybmath/",
+          "email_enc": "v1:HB9NUVEcQgAdI1BJV1IC"
+        },
+        {
+          "name": {
+            "ko": "최소영",
+            "en": "SoYoung Choi"
+          },
+          "affiliation": {
+            "ko": "경상국립대학교",
+            "en": "Gyeongsang National University"
+          },
+          "url": "",
+          "email_enc": "v1:HB9NUVEcQgATI1VeR1gXGxBaRFNa"
+        }
+      ]
+    }
+  ],
+  "speakers": [],
+  "program": [
+    {
+      "date": "2027-02-10",
+      "label": {
+        "ko": "2월 10일(수) · 사전행사",
+        "en": "February 10 (Wed) · Pre-event"
+      },
+      "tentative": true,
+      "note": {
+        "ko": "사전행사는 인공지능을 주제로 수학자 간 소통을 활성화하기 위해 본 행사와 별도로 격식 없이 진행됩니다. 세부 내용은 프로그램 위원회에서 정해지는 대로 안내드립니다.",
+        "en": "The pre-event is an informal gathering, separate from the main conference, intended to foster conversation among mathematicians on the theme of artificial intelligence. Details will be announced once the Program Committee finalizes them."
+      },
+      "items": [
+        {
+          "time": "15:00–16:00",
+          "title": {
+            "ko": "사전 등록",
+            "en": "Early registration"
+          },
+          "speaker": {
+            "ko": "",
+            "en": ""
+          },
+          "kind": "registration",
+          "tentative": false
+        },
+        {
+          "time": "16:00–18:00",
+          "title": {
+            "ko": "사전행사: 인공지능과 수학 관련 강연회·간담회",
+            "en": "Pre-event: talks and discussion on AI and mathematics"
+          },
+          "speaker": {
+            "ko": "",
+            "en": ""
+          },
+          "kind": "talk",
+          "tentative": true
+        }
+      ]
+    },
+    {
+      "date": "2027-02-11",
+      "label": {
+        "ko": "2월 11일(목) · 본 행사 1일차",
+        "en": "February 11 (Thu) · Day 1"
+      },
+      "tentative": false,
+      "note": {
+        "ko": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "time": "11:00–12:00",
+          "title": {
+            "ko": "등록 및 점심 쿠폰 배부",
+            "en": "Registration and lunch coupon distribution"
+          },
+          "speaker": {
+            "ko": "",
+            "en": ""
+          },
+          "kind": "registration",
+          "tentative": false
+        },
+        {
+          "time": "14:00–17:00",
+          "title": {
+            "ko": "강연",
+            "en": "Talks"
+          },
+          "speaker": {
+            "ko": "",
+            "en": ""
+          },
+          "kind": "talk",
+          "tentative": false
+        },
+        {
+          "time": "17:00–18:00",
+          "title": {
+            "ko": "회의",
+            "en": "Meeting"
+          },
+          "speaker": {
+            "ko": "",
+            "en": ""
+          },
+          "kind": "meeting",
+          "tentative": false
+        },
+        {
+          "time": "18:00–",
+          "title": {
+            "ko": "뱅큇",
+            "en": "Banquet"
+          },
+          "speaker": {
+            "ko": "",
+            "en": ""
+          },
+          "kind": "social",
+          "tentative": false
+        }
+      ]
+    },
+    {
+      "date": "2027-02-12",
+      "label": {
+        "ko": "2월 12일(금) · 본 행사 2일차",
+        "en": "February 12 (Fri) · Day 2"
+      },
+      "tentative": false,
+      "note": {
+        "ko": "",
+        "en": ""
+      },
+      "items": [
+        {
+          "time": "09:30–12:30",
+          "title": {
+            "ko": "강연",
+            "en": "Talks"
+          },
+          "speaker": {
+            "ko": "",
+            "en": ""
+          },
+          "note": {
+            "ko": "점심 쿠폰 제공",
+            "en": "Lunch coupons provided"
+          },
+          "kind": "talk",
+          "tentative": false
+        }
+      ]
+    }
+  ],
+  "registration": {
+    "form_url": "",
+    "embed": false,
+    "status": "auto",
+    "deadline": "",
+    "deadline_display": {
+      "ko": "",
+      "en": ""
+    },
+    "fee": {
+      "ko": "",
+      "en": ""
+    },
+    "note": {
+      "ko": "",
+      "en": ""
+    }
+  },
+  "participants": [],
+  "participants_url": "",
+  "participants_note": {
+    "ko": "사전등록 시 명단 게시에 동의하신 분만 등록 순으로 표시됩니다.",
+    "en": "Only registrants who agreed to be listed are shown, in order of registration."
+  },
+  "accommodation": {
+    "ko": "",
+    "en": ""
+  },
+  "downloads": [],
+  "gallery": [],
+  "sponsors": [],
+  "contact": [],
+  "footer": {
+    "ko": "정기 정수론 학회 2027 조직위원회 · 서울대학교 수리과학부",
+    "en": "Regular Number Theory Conference 2027 Organizing Committee · Department of Mathematical Sciences, Seoul National University"
+  },
+  "footer_url": "",
+  "updated": "2026-10-26"
+}
