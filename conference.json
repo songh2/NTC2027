@@ -328,6 +328,60 @@
     "note": {
       "ko": "",
       "en": ""
+    },
+    "endpoint": "",
+    "attendance_options": [
+      {
+        "id": "all3",
+        "label": {
+          "ko": "3일 모두 참석 — 사전행사(2월 10일) + 본 행사 1·2일차",
+          "en": "All 3 days — pre-event (Feb 10) + main conference Days 1 and 2"
+        },
+        "note": {
+          "ko": "사전행사(2월 10일)는 아직 확정되지 않았습니다(예정).",
+          "en": "The pre-event on February 10 is still tentative."
+        },
+        "days": [
+          "2027-02-10",
+          "2027-02-11",
+          "2027-02-12"
+        ]
+      },
+      {
+        "id": "main2",
+        "label": {
+          "ko": "본 행사 2일 모두 참석 — 2월 11일(목)·12일(금)",
+          "en": "Main conference, both days — Feb 11 (Thu) and Feb 12 (Fri)"
+        },
+        "days": [
+          "2027-02-11",
+          "2027-02-12"
+        ]
+      },
+      {
+        "id": "day1",
+        "label": {
+          "ko": "본 행사 1일차만 참석 — 2월 11일(목)",
+          "en": "Main conference Day 1 only — Feb 11 (Thu)"
+        },
+        "days": [
+          "2027-02-11"
+        ]
+      },
+      {
+        "id": "day2",
+        "label": {
+          "ko": "본 행사 2일차만 참석 — 2월 12일(금)",
+          "en": "Main conference Day 2 only — Feb 12 (Fri)"
+        },
+        "days": [
+          "2027-02-12"
+        ]
+      }
+    ],
+    "privacy_notice": {
+      "ko": "수집 항목: 성명, 소속 기관, 이메일, 참석 구분(참석 일자)\n이용 목적: 참가 등록 확인, 행사 운영 및 안내 연락, 참석 인원 집계, 행사 후 참석 확인·정산 업무\n보유·이용 기간: 행사 종료 및 관련 정산 완료 후 지체 없이 파기합니다.\n동의를 거부하실 수 있으나, 거부하시면 이 양식으로 사전등록을 하실 수 없습니다.\n참가자 명단 게시는 별도의 선택 동의이며, 동의하신 경우 성명과 소속만 이 홈페이지에 공개됩니다(이메일은 공개되지 않습니다).",
+      "en": "Items collected: full name, affiliation, e-mail address, days attending\nPurpose: confirming registration, organizing the event and contacting participants, headcounts, and post-event attendance verification and settlement\nRetention: deleted without delay after the event and related settlement are completed.\nYou may refuse to consent, but then you cannot register with this form.\nListing on the participant list is a separate optional consent; if you agree, only your name and affiliation are shown on this website (e-mail addresses are never shown)."
     }
   },
   "participants": [],
