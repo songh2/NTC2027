@@ -206,8 +206,8 @@
             "en": "Talk 1"
           },
           "speaker": {
-            "ko": "이철희",
-            "en": "Chul-hee Lee"
+            "ko": "이철희 (KIAS)",
+            "en": "Chul-hee Lee (KIAS)"
           },
           "kind": "talk",
           "tentative": false
@@ -232,8 +232,8 @@
             "en": "Talk 2"
           },
           "speaker": {
-            "ko": "박지훈",
-            "en": "Jihun Park"
+            "ko": "박지훈 (POSTECH)",
+            "en": "Jihun Park (POSTECH)"
           },
           "kind": "talk",
           "tentative": false
@@ -258,8 +258,8 @@
             "en": "Panel discussion"
           },
           "speaker": {
-            "ko": "사회: 김도형 · 패널: 이영민, 정근영, 유화종, 이정인(TBD)",
-            "en": "Moderator: Dohyeong Kim · Panelists: Youngmin Lee, Keunyoung Jeong, Hwajong Yoo, Jungin Lee (TBD)"
+            "ko": "사회: 김도형 · 패널: 이영민(경기대학교), 정근영(전남대학교), 유화종(서울대학교), 이정인(아주대학교, TBD)",
+            "en": "Moderator: Dohyeong Kim · Panelists: Youngmin Lee (Kyonggi University), Keunyoung Jeong (Chonnam National University), Hwajong Yoo (Seoul National University), Jungin Lee (Ajou University, TBD)"
           },
           "kind": "talk",
           "tentative": false
