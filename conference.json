@@ -187,7 +187,7 @@
       },
       "items": [
         {
-          "time": "15:00–16:00",
+          "time": "14:00–15:00",
           "title": {
             "ko": "사전 등록",
             "en": "Early registration"
@@ -200,17 +200,69 @@
           "tentative": false
         },
         {
-          "time": "16:00–18:00",
+          "time": "15:00–15:30",
           "title": {
-            "ko": "사전행사: 인공지능과 수학 관련 강연회·간담회",
-            "en": "Pre-event: talks and discussion on AI and mathematics"
+            "ko": "강연 1",
+            "en": "Talk 1"
+          },
+          "speaker": {
+            "ko": "이철희",
+            "en": ""
+          },
+          "kind": "talk",
+          "tentative": false
+        },
+        {
+          "time": "15:30–15:40",
+          "title": {
+            "ko": "휴식",
+            "en": "Break"
           },
           "speaker": {
             "ko": "",
             "en": ""
           },
+          "kind": "break",
+          "tentative": false
+        },
+        {
+          "time": "15:40–16:10",
+          "title": {
+            "ko": "강연 2",
+            "en": "Talk 2"
+          },
+          "speaker": {
+            "ko": "박지훈",
+            "en": ""
+          },
           "kind": "talk",
-          "tentative": true
+          "tentative": false
+        },
+        {
+          "time": "16:10–16:30",
+          "title": {
+            "ko": "휴식",
+            "en": "Break"
+          },
+          "speaker": {
+            "ko": "",
+            "en": ""
+          },
+          "kind": "break",
+          "tentative": false
+        },
+        {
+          "time": "16:30–17:10",
+          "title": {
+            "ko": "패널토론",
+            "en": "Panel discussion"
+          },
+          "speaker": {
+            "ko": "사회: 김도형 · 패널: 이영민, 정근영, 유화종, 이정인(TBD)",
+            "en": "Moderator: 김도형 · Panelists: 이영민, 정근영, 유화종, 이정인 (TBD)"
+          },
+          "kind": "talk",
+          "tentative": false
         }
       ]
     },
@@ -403,5 +455,5 @@
     "en": "Regular Number Theory Conference 2027 Organizing Committee · Department of Mathematical Sciences, Seoul National University"
   },
   "footer_url": "",
-  "updated": "2026-10-26"
+  "updated": "2026-11-02"
 }
