@@ -543,8 +543,8 @@
             "en": "Panel discussion"
           },
           "speaker": {
-            "ko": "사회: 김도형 · 패널: 이영민(경기대학교), 정근영(전남대학교), 유화종(서울대학교), 이정인(아주대학교, TBD)",
-            "en": "Moderator: Dohyeong Kim · Panelists: Youngmin Lee (Kyonggi University), Keunyoung Jeong (Chonnam National University), Hwajong Yoo (Seoul National University), Jungin Lee (Ajou University, TBD)"
+            "ko": "사회: 김도형 · 패널: 이영민(경기대학교), 정근영(전남대학교), 유화종(서울대학교), 이정인(아주대학교)",
+            "en": "Moderator: Dohyeong Kim · Panelists: Youngmin Lee (Kyonggi University), Keunyoung Jeong (Chonnam National University), Hwajong Yoo (Seoul National University), Jungin Lee (Ajou University)"
           },
           "kind": "talk",
           "tentative": false
