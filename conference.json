@@ -1,5 +1,6 @@
 {
   "slug": "ntc2027",
+  "site_url": "https://songh2.github.io/NTC2027/",
   "lang_default": "ko",
   "title": {
     "ko": "정기 정수론 학회 2027",
@@ -42,9 +43,156 @@
     "lat": null,
     "lng": null,
     "directions": {
-      "ko": "",
-      "en": ""
-    }
+      "ko": "아래 교통 안내는 2026년 11월에 확인한 서울대학교 공식 교통 안내를 바탕으로 정리했습니다. 노선과 운행 시간은 바뀔 수 있으니 출발 전에 다시 확인해 주세요.",
+      "en": "The directions below are based on the official SNU transportation guide as checked in November 2026. Routes and schedules may change, so please check again before you travel."
+    },
+    "map_query": "서울대학교 상산수리과학관",
+    "campus_map_url": "https://eng.snu.ac.kr/sites/default/files/notice/Gwanak_Campusmap_kor.pdf",
+    "routes": [
+      {
+        "icon": "plane",
+        "title": {
+          "ko": "인천국제공항에서",
+          "en": "From Incheon International Airport"
+        },
+        "steps": [
+          {
+            "ko": "인천공항 1·2터미널의 공항 리무진 버스 승강장에서 6017번 버스를 탑니다.",
+            "en": "Take Airport Limousine Bus No. 6017 from the limousine bus stops at Terminal 1 or 2."
+          },
+          {
+            "ko": "\"호암교수회관(호암교수관)\" 정류장에서 내립니다. 교통 상황에 따라 약 1시간 40분 걸립니다.",
+            "en": "Get off at the Hoam Faculty House stop. The ride takes about 1 hour 40 minutes, depending on traffic."
+          },
+          {
+            "ko": "호암교수회관에서 상산수리과학관까지는 아래 \"캠퍼스 안에서\"를 참고하세요.",
+            "en": "From Hoam Faculty House to the SangSan building, see \"Inside the campus\" below."
+          }
+        ],
+        "note": {
+          "ko": "탑승 승강장 번호와 운행 시간표는 공항리무진 안내에서 출발 전에 확인해 주세요.",
+          "en": "Please check the boarding gate number and timetable with the airport limousine service before departure."
+        },
+        "source": "https://www.snu.ac.kr/about/gwanak/transportation/long_distance",
+        "source_label": {
+          "ko": "서울대학교 공식 안내 (장거리 교통)",
+          "en": "SNU official guide (long-distance travel)"
+        }
+      },
+      {
+        "icon": "subway",
+        "title": {
+          "ko": "김포국제공항에서",
+          "en": "From Gimpo International Airport"
+        },
+        "steps": [
+          {
+            "ko": "지하철 5호선 김포공항역에서 영등포구청역까지 갑니다.",
+            "en": "Take subway Line 5 from Gimpo Airport Station to Yeongdeungpo-gu Office Station."
+          },
+          {
+            "ko": "영등포구청역에서 2호선으로 갈아타 서울대입구역 또는 낙성대역에서 내립니다.",
+            "en": "Transfer to Line 2 and get off at Seoul National Univ. Station or Nakseongdae Station."
+          },
+          {
+            "ko": "이후는 아래 \"서울 시내에서 지하철·버스로\"를 따라가세요. 651번 버스를 타면 서울대 정문까지 바로 갈 수도 있습니다.",
+            "en": "Continue with \"By subway and bus in Seoul\" below. Bus No. 651 also goes directly to the SNU main gate."
+          }
+        ],
+        "source": "https://www.snu.ac.kr/about/gwanak/transportation/long_distance",
+        "source_label": {
+          "ko": "서울대학교 공식 안내 (장거리 교통)",
+          "en": "SNU official guide (long-distance travel)"
+        }
+      },
+      {
+        "icon": "bus",
+        "title": {
+          "ko": "서울 시내에서 지하철·버스로",
+          "en": "By subway and bus in Seoul"
+        },
+        "subtitle": {
+          "ko": "낙성대역 또는 신림역에서 갈아타는 방법",
+          "en": "Transferring at Nakseongdae or Sillim Station"
+        },
+        "steps": [
+          {
+            "ko": "2호선 낙성대역 4번 출구로 나와 직진하다가 주유소에서 왼쪽으로 돕니다. 빵집 앞에 정류장이 있습니다.",
+            "en": "Take Line 2 to Nakseongdae Station and leave by Exit 4. Walk straight, turn left at the gas station, and the bus stop is in front of the bakery."
+          },
+          {
+            "ko": "초록색 마을버스 관악02를 타고 서울대 캠퍼스 안으로 들어갑니다.",
+            "en": "Take the green village bus Gwanak 02 into the SNU campus."
+          },
+          {
+            "ko": "신림역에서는 3번 출구로 나와 5516번 버스를 탈 수 있습니다.",
+            "en": "From Sillim Station, leave by Exit 3 and take bus No. 5516."
+          },
+          {
+            "ko": "서울대입구역 3번 출구에서는 캠퍼스까지 걸어서 갈 수 없습니다. 관악구청 방향으로 걸어가 캠퍼스행 셔틀·버스를 이용하세요.",
+            "en": "From Seoul National Univ. Station Exit 3 the campus is not within walking distance. Walk toward the Gwanak-gu Office and take a shuttle or bus to the campus."
+          }
+        ],
+        "note": {
+          "ko": "501, 750, 5517, 5522B, 5528, 6511번 버스도 서울대로 갑니다. 상산수리과학관에서 가까운 하차 정류장은 행사 전에 다시 안내드리겠습니다.",
+          "en": "Buses 501, 750, 5517, 5522B, 5528 and 6511 also go to SNU. We will announce the best stop near the SangSan building before the event."
+        },
+        "source": "https://en-cdn.snu.ac.kr/about/campus/gwanak/transportation",
+        "source_label": {
+          "ko": "서울대학교 공식 안내 (교통)",
+          "en": "SNU official guide (transportation)"
+        }
+      },
+      {
+        "icon": "walk",
+        "title": {
+          "ko": "캠퍼스 안에서",
+          "en": "Inside the campus"
+        },
+        "steps": [
+          {
+            "ko": "상산수리과학관(129동)은 서울대 관악캠퍼스 지도의 C 구역에 있습니다.",
+            "en": "The SangSan Mathematical Sciences Building (#129) is in zone C of the SNU Gwanak campus map."
+          },
+          {
+            "ko": "캠퍼스 안 순환 셔틀버스는 무료이며 학기 중에는 5~20분 간격으로 다닙니다.",
+            "en": "The on-campus shuttle buses are free and run every 5 to 20 minutes during the semester."
+          }
+        ],
+        "note": {
+          "ko": "2월은 방학 기간이라 셔틀 운행이 다를 수 있습니다. 확인되는 대로 안내드립니다.",
+          "en": "February is a vacation period, so the shuttle service may differ. We will announce it once confirmed."
+        },
+        "source": "https://eng.snu.ac.kr/sites/default/files/notice/Gwanak_Campusmap_kor.pdf",
+        "source_label": {
+          "ko": "서울대학교 관악캠퍼스 지도",
+          "en": "SNU Gwanak campus map"
+        }
+      },
+      {
+        "icon": "taxi",
+        "title": {
+          "ko": "택시로",
+          "en": "By taxi"
+        },
+        "steps": [
+          {
+            "ko": "아래 목적지와 주소를 택시 기사님께 보여 드립니다.",
+            "en": "Show the destination and address below to the taxi driver."
+          }
+        ],
+        "card": {
+          "label": {
+            "ko": "택시 기사님께 보여 주세요",
+            "en": "Please show this to the driver"
+          },
+          "text": {
+            "ko": "목적지: 서울대학교 상산수리과학관 (129동)\n주소: 서울특별시 관악구 관악로 1 서울대학교",
+            "en": "Destination: 서울대학교 상산수리과학관 (129동)\nAddress: 서울특별시 관악구 관악로 1 서울대학교"
+          }
+        }
+      }
+    ]
   },
   "host": {
     "ko": "",
@@ -733,5 +881,17 @@
     "en": "Regular Number Theory Conference 2027 Organizing Committee · Department of Mathematical Sciences, Seoul National University"
   },
   "footer_url": "",
-  "updated": "2026-11-16"
+  "updated": "2026-11-16",
+  "sponsors_note": {
+    "ko": "지원 기관은 확정되는 대로 안내드립니다.",
+    "en": "Supporting institutions will be announced once confirmed."
+  },
+  "published_poster": {
+    "image": "assets/poster.jpg",
+    "pdf": "assets/poster.pdf",
+    "caption": {
+      "ko": "정기 정수론 학회 2027 포스터",
+      "en": "Regular Number Theory Conference 2027 poster"
+    }
+  }
 }
