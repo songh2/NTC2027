@@ -491,8 +491,8 @@
             "en": "Talk 1"
           },
           "speaker": {
-            "ko": "이철희 (KIAS)",
-            "en": "Chul-hee Lee (KIAS)"
+            "ko": "이철희 (Center for Artificial Intelligence and Natural Sciences, KIAS)",
+            "en": "Chul-hee Lee (Center for Artificial Intelligence and Natural Sciences, KIAS)"
           },
           "kind": "talk",
           "tentative": false
@@ -518,7 +518,7 @@
           },
           "speaker": {
             "ko": "박지훈 (QSMS, 서울대학교)",
-            "en": "Jihun Park (QSMS, Seoul National University)"
+            "en": "Jeehoon Park (QSMS, Seoul National University)"
           },
           "kind": "talk",
           "tentative": false
