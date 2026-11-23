@@ -739,14 +739,13 @@ body { word-break: keep-all; overflow-wrap: break-word; }
   }
   .home-top-stage > .hero {
     background-image: none !important;
-    border-bottom: 1px solid rgba(240, 200, 112, 0.22);
+    border-bottom: 1px solid rgba(240, 200, 112, 0.20);
   }
   .home-top-stage > .hero::before {
     background: linear-gradient(90deg, rgba(6, 14, 33, 0.78) 0%, rgba(6, 14, 33, 0.36) 46%, rgba(6, 14, 33, 0.0) 100%);
   }
   .home-top-stage .card,
-  .home-top-stage .notice-list li,
-  .home-top-stage .hero-meta {
+  .home-top-stage .notice-list li {
     background: rgba(7, 18, 40, 0.70);
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(7px);
@@ -762,7 +761,7 @@ body { word-break: keep-all; overflow-wrap: break-word; }
   .hero::before {
     background: linear-gradient(90deg, rgba(6, 14, 33, 0.90) 0%, rgba(6, 14, 33, 0.70) 48%, rgba(6, 14, 33, 0.16) 100%);
   }
-  .hero-inner { padding-top: 84px; padding-bottom: 72px; }
+  .hero-inner { padding-top: 84px; padding-bottom: 68px; }
   .hero-kicker, .page-kicker {
     display: inline-block;
     background: rgba(240, 198, 105, 0.16);
@@ -787,36 +786,26 @@ body { word-break: keep-all; overflow-wrap: break-word; }
     font-size: 1.18rem;
     font-weight: 600;
     color: #eef3fc;
-    margin: 6px 0 20px;
+    margin: 6px 0 0;
     text-shadow: 0 3px 14px rgba(3, 9, 24, 0.88);
   }
 
-  /* Poster-Matched Meta Panel inside Hero */
-  .hero-meta {
-    display: grid;
-    gap: 12px;
-    max-width: 680px;
-    padding: 16px 20px;
-    margin: 18px 0 26px;
-    background: rgba(8, 20, 44, 0.82);
-    border-top: 2.5px solid #eab955;
-    border-bottom: 1px solid rgba(240, 200, 112, 0.36);
-    border-left: 1px solid rgba(255, 255, 255, 0.14);
-    border-right: 1px solid rgba(255, 255, 255, 0.14);
-    border-radius: 12px;
-    box-shadow: 0 10px 28px rgba(2, 7, 18, 0.45);
+  /* Omit duplicate Date/Venue inside Hero (shown cleanly in #overview right below) */
+  #home .hero-meta {
+    display: none !important;
   }
-  .hero-meta > div { display: flex; align-items: flex-start; gap: 10px; }
-  .hero-meta svg { color: #f4cb70; margin-top: 4px; opacity: 1; }
+  .hero-actions {
+    margin-top: 28px;
+  }
 
-  /* 2-Line Badged Dates (Exact Poster Style) */
-  .hero-meta .poster-dates, .poster-dates {
+  /* 2-Line Badged Dates inside #overview Card (Exact Poster Style) */
+  .poster-dates {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
   }
-  .hero-meta .pd-line, .pd-line {
+  .pd-line {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -2657,7 +2646,7 @@ body { word-break: keep-all; overflow-wrap: break-word; }
       var lang = document.documentElement.lang === 'en' ? 'en' : 'ko';
 
       // 0) Group Home top sections (#home -> #overview -> #notices -> #committee) into a single
-      //    seamless stage (.home-top-stage) so the giant modular sphere spans continuously down to Organizing Committee!
+      //    seamless stage (.home-top-stage)
       var homeHero = app.querySelector('#home');
       if (homeHero && homeHero.parentNode === app) {
         var stage = document.createElement('div');
@@ -2689,15 +2678,7 @@ body { word-break: keep-all; overflow-wrap: break-word; }
         }
       }
 
-      // 2) Hero calendar line -> 2-line badged layout matching poster
-      var heroCalSpan = app.querySelector('#home.hero .hero-meta > div:first-child > span:last-child');
-      if (heroCalSpan && !heroCalSpan.getAttribute('data-pt-dates')) {
-        heroCalSpan.setAttribute('data-pt-dates', '1');
-        heroCalSpan.textContent = '';
-        heroCalSpan.appendChild(buildDateBadges(lang));
-      }
-
-      // 3) Home Overview Date card -> 2-line badged layout matching poster
+      // 2) Home Overview Date card -> 2-line badged layout matching poster
       var ovVal = app.querySelector('#overview .card:first-child .value');
       if (ovVal && !ovVal.getAttribute('data-pt-dates')) {
         ovVal.setAttribute('data-pt-dates', '1');
